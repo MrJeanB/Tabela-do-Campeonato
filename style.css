@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabela {
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.tabela {
+    border: 1px solid #dddddd;
+    
+}
+
+tbody tr td {
+    border-top: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.pulo {
+    border-top: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+.sigla {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #666666;
+}
+
+.posicao1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #003366;
+}
+.posicao2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #1398be;
+}
+.posicao3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #de9800;
+}
+.posicao4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #cccccc;
+}
+.posicao5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #c91b04;
+}
+
+.time {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+.p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.j, .v, .e, .d, .gp, .gc, .gc, .sg, .percent {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.competicoes {
+    text-align: left;
+    font-size: 10px;
+    color: #8f8f8f;
+}
+
+.legenda {
+    text-align: left;
+    font-size: 10px;
+    color: #555;
+    
+}
+
+.p, .v, .d, .gc, .percent {
+    background: #f7f7f7f7;
+}
